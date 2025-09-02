@@ -1,16 +1,8 @@
-thanos = 150
-aranha = 110
-anos = 0
-
-print("Antes: aranha =", aranha, "thanos =", thanos)
-
-if aranha > thanos:
-    anos=0
-else:
-    anos = (thanos - aranha) // (3 - 2) +1
-    aranha += anos * 3
-    thanos += anos * 2
-print("Depois: aranha = ", aranha, "thanos =", thanos)
-print(anos ,"é a quantidade de anos que demorou para o aranha ultrapassar o thanos")
-print(aranha ,"é a altura do aranha")
-print(thanos ,"é a altura do thanos")
+Thanos=1.50
+Miranha=1.10
+for i in range (1000):
+    if Miranha>Thanos:
+        break
+    Thanos+=0.02
+    Miranha+=0.03
+print("Vai demorar", i, "anos para que o Homem Aranha seja maior que o Thanos!")
