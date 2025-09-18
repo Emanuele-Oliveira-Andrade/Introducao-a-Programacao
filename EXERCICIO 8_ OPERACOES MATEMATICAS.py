@@ -1,4 +1,4 @@
-aa=0
+a=0
 b=0
 c=0
 fatorial=1
@@ -13,7 +13,7 @@ print("6- Fatorial")
 print("7- Primo")
 resposta= (input("Escolha qual operação matemática deseja usar, colocando o número da operação ou <SAIR> para encerrar: "))
 respostaMaiusculo=resposta.upper()
-while resposta!="SAIR" or "Sair" or "sair":
+while respostaMaiusculo!="SAIR":
     if resposta== "1":
         a=(int(input("Primeiro número: ")))
         b=(int(input("Segundo número: ")))
@@ -63,16 +63,14 @@ while resposta!="SAIR" or "Sair" or "sair":
         else:
             print("O número", a, "não é primo.")
         input("Pressione ENTER para voltar ao MENU! ")
-    if resposta== "SAIR" or "sair" or "Sair":
-        print("A sessão terminou.")
-        break
-print("********** OPERAÇÕES MATEMÁTICAS **********")
-print("Escolha uma das operações matemáticas abaixo. Para encerrar digite 'SAIR' :")
-print("1- Soma")
-print("2- Subtração")
-print("3- Multiplicação")
-print("4- Divisão")
-print("5- Par ou ímpar")
-print("6- Fatorial")
-print("7- Primo")
-resposta= (input("Escolha qual operação matemática deseja usar, colocando o número da operação ou <SAIR> para encerrar: "))
+    print("********** OPERAÇÕES MATEMÁTICAS **********")
+    print("Escolha uma das operações matemáticas abaixo. Para encerrar digite 'SAIR' :")
+    print("1- Soma")
+    print("2- Subtração")
+    print("3- Multiplicação")
+    print("4- Divisão")
+    print("5- Par ou ímpar")
+    print("6- Fatorial")
+    print("7- Primo")
+    resposta= (input("Escolha qual operação matemática deseja usar, colocando o número da operação ou <SAIR> para encerrar: "))
+    respostaMaiusculo=resposta.upper()
