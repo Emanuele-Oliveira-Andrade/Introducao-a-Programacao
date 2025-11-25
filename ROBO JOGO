@@ -1,0 +1,35 @@
+horas = int(input("Quantas horas joga por semana? "))
+gasto = int(input("Quanto gasta por mês com jogos? "))
+jogos = int(input("Quantos jogos estão instalados? "))
+
+perfil = "não classificado"
+
+if horas >= 30:
+    if gasto >= 100:
+        if jogos >= 20:
+            perfil = "HARDCORE "
+
+if perfil == "não classificado":
+    if horas >= 10:
+        if horas <= 29:
+            if gasto >= 30:
+                if gasto <= 99:
+                    if jogos >= 10:
+                        if jogos <= 19:
+                            perfil = "INTERMEDIÁRIO "
+
+
+if perfil == "não classificado":
+    if horas < 10:
+        perfil = "CASUAL "
+    else:
+        if gasto < 30:
+            perfil = "CASUAL "
+        else:
+            if jogos < 10:
+                perfil = "CASUAL "
+
+if perfil == "não classificado":
+    perfil = "Não foi possível classificar o jogador."
+
+print("Classificação:", perfil)
