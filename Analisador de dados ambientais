@@ -1,0 +1,46 @@
+
+n = int(input("Quantas leituras de temperatura serão analisadas? "))
+
+maior = 0
+menor = 0
+soma = 0
+acima_30 = 0
+abaixo_15 = 0
+
+for i in range(n):
+    temp = float(input("Digite a temperatura: "))
+
+    if i == 0:
+        maior = temp
+        menor = temp
+    else:
+        if temp > maior:
+            maior = temp
+      
+        if temp < menor:
+            menor = temp
+
+    soma += temp
+
+  
+    if temp > 30:
+        acima_30 += 1
+
+  
+    if temp < 15:
+        abaixo_15 += 1
+
+media = soma / n
+
+print("Maior temperatura registrada:", maior)
+print("Menor temperatura registrada:", menor)
+print("Média das temperaturas:", media)
+print("Leituras acima de 30°C:", acima_30)
+print("Leituras abaixo de 15°C:", abaixo_15)
+
+diferenca = maior - menor
+
+if diferenca > 20:
+    print("ALERTA: Variação térmica extrema!")
+else:
+    print("Variação dentro do esperado.")
