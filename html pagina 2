@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<title> Letras - Lover </title>
+<style>
+body {
+  background-color: rgb(230, 174, 236);
+}
+
+h1 {
+  color: rgb(170, 101, 159);
+  font-size: 80px;
+  font-family:Lucida handwriting, cursive; 
+}
+p {
+  color: rgb(175, 79, 175);
+  font-size: 28px;
+}
+
+p1 {
+  color: rgb(175, 79, 175);
+  font-size: 20px;
+}
+
+</style>
+</head>
+<body>
+<h1> LOVER </h1>
+<p><a href="https://www.youtube.com/watch?v=-BjZmE2gtdo&t=1s" target="_blank"> LOVER </a> é o single do Álbum Lover (2019)</p>
+<img src="https://qmunicatemagazine.co.uk/wp-content/uploads/2022/09/d49dd-eto_dn_taylorswiftalbum_082319vidpic.png.jpg" style="display: block; margin: 0 auto;"
+alt="Taylor Swift" width="1600" height="700">
+
+<p1>And this is our place, we make the rules<br>
+   And there's a dazzling haze, a mysterious way about you, dear<br>
+   Have I known you 20 seconds or 20 years?<br>
+   Can I go where you go?<br>
+   Can we always be this close forever and ever? <br>
+   And ah, take me out, and take me home<br>
+   You're my, my, my, my <br>
+   Lover</p1>
+</body>
+</html>
